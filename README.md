@@ -2,6 +2,7 @@
 HelloWorld application in React native to run on android or ios device
 <br>
 <h3>Setup</h3>
+add environment variables
 
 https://facebook.github.io/react-native/docs/tutorial 
 
