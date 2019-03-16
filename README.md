@@ -1,7 +1,7 @@
 # React-native-HelloWorld
 HelloWorld application in React native to run on android or ios device
 <br>
-<h2>Setup<h2>
+<h3>Setup</h3>
 
 https://facebook.github.io/react-native/docs/tutorial 
 
