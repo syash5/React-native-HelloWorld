@@ -10,9 +10,12 @@ Ensure that you have node installed and then use npm to install react native as 
 
 Installing node The simplest way to get started is to install homebrew on your system. You can then install node and watchman with the following commands
 
-brew install node brew install watchman Installing React-Native Command Line Interface You may install react-native with the following npm command
+brew install node 
+brew install watchman 
+Installing React-Native Command Line Interface You may install react-native with the following npm command
 
-npm install -g react-native-cli once this is complete, navigate to this projects folder and type npm install to install all dependencies listed in the project's package.json file
+npm install -g react-native-cli 
+once this is complete, navigate to this projects folder and type npm install to install all dependencies listed in the project's package.json file
 
 Configuring the environments for iOS and Android iOS (XCode)
 
@@ -30,8 +33,14 @@ You can start streaming the app to your device with the following commands
 
 For iOS
 
-react-native run-ios For iOS you will probably want to have the simulator open already as XCode 9 does not start the simulator automatically with this command
+react-native run-ios 
+For iOS you will probably want to have the simulator open already as XCode 9 does not start the simulator automatically with this command
 
-For Android adb reverse tcp:8081 tcp:8081 sudo react-native run-android
+For Android 
 
-#additional commands adb devices ----- to see devices connected sudo npm start
+adb reverse tcp:8081 tcp:8081 
+sudo react-native run-android
+
+#additional commands 
+adb devices ----- to see devices connected 
+sudo npm start
