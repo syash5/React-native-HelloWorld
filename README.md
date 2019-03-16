@@ -1,46 +1,47 @@
 # React-native-HelloWorld
 HelloWorld application in React native to run on android or ios device
-Setup
+<br>
+<h2>Setup<h2>
 
 https://facebook.github.io/react-native/docs/tutorial 
 
-Before attempting to run this demo please make sure that you have taken care of the following dependencies
+Before attempting to run this demo please make sure that you have taken care of the following dependencies<br>
 
-Ensure that you have node installed and then use npm to install react native as described below
+Ensure that you have node installed and then use npm to install react native as described below<br>
 
-Installing node The simplest way to get started is to install homebrew on your system. You can then install node and watchman with the following commands
+Installing node The simplest way to get started is to install homebrew on your system. You can then install node and watchman with the following commands<br>
 
-brew install node 
-brew install watchman 
-Installing React-Native Command Line Interface You may install react-native with the following npm command
+<h4>brew install node</h4><br>
+<h4>brew install watchman</h4><br>
+Installing React-Native Command Line Interface You may install react-native with the following npm command<br>
 
-npm install -g react-native-cli 
-once this is complete, navigate to this projects folder and type npm install to install all dependencies listed in the project's package.json file
+<h4>npm install -g react-native-cli <h4><br>
+once this is complete, navigate to this projects folder and type npm install to install all dependencies listed in the project's package.json file<br>
 
-Configuring the environments for iOS and Android iOS (XCode)
+Configuring the environments for iOS and Android iOS (XCode)<br>
 
-Navigate to project ios subfolder and run
+Navigate to project ios subfolder and run<br>
 
-pod install to install the latest iOS MotionDNA SDK
+<h4>pod install</h4> to install the latest iOS MotionDNA SDK<br>
 
 Android (Android Studio)
+<br>
+Open the Android project folder in Android Studio Aside from instant run, install any recommended dependencies and build tools that are suggested<br>
 
-Open the Android project folder in Android Studio Aside from instant run, install any recommended dependencies and build tools that are suggested
+Running the demos The hello world project is designed to work with both ios and android systems. It will run on the simulator or the actual device.<br>
 
-Running the demos The hello world project is designed to work with both ios and android systems. It will run on the simulator or the actual device.
+You can start streaming the app to your device with the following commands<br>
 
-You can start streaming the app to your device with the following commands
+For iOS<br>
 
-For iOS
+<h4>react-native run-ios</h4> <br>
+For iOS you will probably want to have the simulator open already as XCode 9 does not start the simulator automatically with this command<br>
+<br>
+For Android <br>
 
-react-native run-ios 
-For iOS you will probably want to have the simulator open already as XCode 9 does not start the simulator automatically with this command
-
-For Android 
-
-adb reverse tcp:8081 tcp:8081 
-sudo react-native run-android
-
-#additional commands 
-adb devices ----- to see devices connected 
-sudo npm start
+<h4>adb reverse tcp:8081 tcp:8081 </h4> <br>
+<h4>sudo react-native run-android </h4> 
+<br>
+#additional commands <br>
+<h4>adb devices ----- to see devices connected </h4> <br>
+<h4>sudo npm start </h4> <br>
